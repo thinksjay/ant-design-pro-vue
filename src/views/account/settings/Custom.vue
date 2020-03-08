@@ -23,7 +23,8 @@ export default {
     themeFilter (theme) {
       const themeMap = {
         'dark': '暗色',
-        'light': '白色'
+        'light': '白色',
+        'realDark': '全暗色'
       }
       return themeMap[theme]
     }
